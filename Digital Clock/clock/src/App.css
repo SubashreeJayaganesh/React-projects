@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+  font-family: "Bona Nova SC", serif;
+}
+body{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: #30336b;
+}
+#root{
+  background-color: #c7ecee;
+  border-radius: 20px;
+  padding: 10px;
+}
+.clock{
+  color: #30336b;
+}
+.time{
+  font-size: 30px;
+  font-weight: 400;
+}
+.date{
+  font-size: 20px;
+}

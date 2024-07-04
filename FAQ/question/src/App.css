@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+  background-color: #833471;
+}
+h2{
+  color:#FDA7DF;
+}
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.faq-item{
+  margin-bottom: 20px;
+  border:1px solid #833471;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.faq-item-header{
+  background-color:#D980FA;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  color:#333;
+  transition:background-color 0.3s ease;
+}
+.faq-item-header:hover{
+  background-color: #82589F;
+}
+.faq-item-body{
+  background-color: #82589F;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+ 
+}
+.bodyContent{
+  padding: 15px;
+  color:#fff;
+
+}
+.faq-item.active .faq-item-body{
+  max-height: 300px;
+}

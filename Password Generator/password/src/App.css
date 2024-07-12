@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+  font-family: "DM Sans", sans-serif;
+  
+}
+body{
+  background-color: #778ca3;
+}
+.password{
+  max-width: 400px;
+  margin: 50px auto;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap:10px;
+  background-color: #d1d8e0;
+  color:#4b6584;
+  box-shadow: 0px 4px 8px rgba(0, 0,0, 0.1) ;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-group label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  }
+
+  input[type="number"]{
+    width: 100%;
+    border: #4b6584 solid;
+    border-radius: 6px;
+    outline: none;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .generate-btn{
+    padding: 10px 20px;
+    background-color: #778ca3;
+    width: 300px;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    
+  }
+  .generate-btn:hover{
+    background-color: #4b6584;
+  }
+  .generatePassword{
+    display: flex;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  input[type="text"]{
+    border: none;
+    outline: none;
+    flex:1;
+    padding: 10px;
+  }
+  .copy-btn{
+    border: none;
+    padding: 5px;
+    background-color: red;
+    color:#fff;
+  }
